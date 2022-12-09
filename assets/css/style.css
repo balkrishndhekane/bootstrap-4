@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+       /*>>>>>>>>>>>>>>NAVBAR CSS<<<<<<<<<<<<<<<<<<<<*/
+
+/* .header.navbar-dark.navbar-brand{
+ width: 120px;
+ display: inline-block;
+
+} */
+
+.appheader .navbar-dark .navbar-brand {
+    color: rgb(42, 10, 10);
+    width: 120px;
+    display: inline-block;
+}
+.appheader .logo {
+    width: 100%;
+}
+.appheader .navbar-dark .navbar-nav .nav-link {
+
+    color: #fff;
+    text-transform: uppercase;
+}
+.appheader .active{
+
+    background-color:blueviolet
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Carousel Section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.carousel-item{
+    height: 450px;
+    
+}
+.carouselSection .iphone{
+
+height: 100%;
+object-fit: cover;
+width: 100%;
+background-size: cover;
+/* background-position: center; */
+/* background-attachment: fixed; */
+background-repeat: no-repeat;
+
+}
