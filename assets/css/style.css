@@ -18,7 +18,7 @@
     display: inline-block;
 }
 .appheader .logo {
-    width: 100%;
+    width: 35%;
 }
 .appheader .navbar-dark .navbar-nav .nav-link {
 
@@ -40,9 +40,58 @@
 height: 100%;
 object-fit: cover;
 width: 100%;
-background-size: cover;
-/* background-position: center; */
-/* background-attachment: fixed; */
-background-repeat: no-repeat;
+/* background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat; */
 
+}
+
+.carouselSection .head3{
+    position: absolute;
+    bottom: auto;
+    top: 85px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>Home Heading<<<<<<<<<<<<<<< */
+
+.homeHeading,.video{
+    background-image: url("../images/nature-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.homeHeading::before,.video::before{
+    color: '';
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>Video Section<<<<<<<<<<<<<<<<<<<<<< */
+
+.video{
+    background-image: url('../images/video.jpg');
+    position: relative;
+}
+
+/* 
+.applePad{
+    position: relative;
+    bottom: auto;
+    top: 50px;
+   
+} */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>Footer<<<<<<<<<<<<<<<<<<<<<< */
+
+.footer{
+    background-color: #000;
 }
