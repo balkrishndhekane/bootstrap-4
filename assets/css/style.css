@@ -25,9 +25,9 @@
     color: #fff;
     text-transform: uppercase;
 }
-.appheader .active{
+.appheader .navbar-nav .active > .nav-link{
 
-    background-color:blueviolet
+   color:gold
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Carousel Section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */

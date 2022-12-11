@@ -1,0 +1,17 @@
+
+.testimonialSlider .owl-prev,.testimonialSlider button.owl-next{
+    position: absolute;
+    bottom: auto;
+    top:0;
+}
+.testimonialSlider .owl-prev{
+    left: -70px;
+}
+
+.testimonialSlider .owl-next{
+    right:-70px;
+}
+
+.testimonialSlider .owl-prev>i, .testimonialSlider .owl-next>i{
+    font-size: 48px;
+}
